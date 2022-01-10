@@ -115,7 +115,7 @@ namespace CSVtoJSON
             }
         }
 
-        //This method writes the JSON string to a new file and renames it with a JSON extention before saving it
+        //This method writes the JSON string to a new file and renames it with a JSON extention before saving it.
         public void SaveFile(string filePath, string jsonText)
         {
             string removeExtention = filePath.Substring(0, filePath.Length - 3);
